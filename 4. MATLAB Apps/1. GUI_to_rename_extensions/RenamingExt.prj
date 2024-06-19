@@ -1,0 +1,74 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="/Users/anandsingh/Desktop/MatlabProjects/4. MATLAB Apps/1. Gui_to_rename_extensions/RenamingExt.prj" location="/Users/anandsingh/Desktop/MatlabProjects/4. MATLAB Apps/1. Gui_to_rename_extensions" name="RenamingExt" target="target.mlapps" target-name="Package App">
+    <param.appname>RenamingExt</param.appname>
+    <param.authnamewatermark>anandsingh</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Renames file extensions</param.summary>
+    <param.description>Select folder with files. Enter existing extension that needs to be replaced. Enter desired extension. New folder will be created with replaced extension.</param.description>
+    <param.screenshot>/private/var/folders/jk/v6hrlwl50v34y_xh0t1x0gb40000gn/T/tp12f9005f_c712_4e15_a27a_c54efc29555b.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>f820648c-0c28-46c6-a747-265617b2fc85</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/RenamingExt.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/anandsingh/Desktop/MatlabProjects/4. MATLAB Apps" name="1. Gui_to_rename_extensions" optional="false">/Users/anandsingh/Desktop/MatlabProjects/4. MATLAB Apps/1. Gui_to_rename_extensions</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2023b.app</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>14.5</osver>
+      <os32>true</os32>
+      <os64>false</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
