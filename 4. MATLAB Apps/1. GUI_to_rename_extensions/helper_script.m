@@ -7,7 +7,7 @@ if class(file_names) == "char" % case 1: Only 1 file selected --> if only one fi
 else                          % case 2: Multiple files selected --> if multiple file names are selected, length(flie_names) = number of files in the cell array
     for i = 1:length(file_names)
         str = file_names(1,i);
-        str = char(str);\
+        str = char(str);
         % to replace substring after '.' with string 'value'
         new_str{1,i} = replaceBetween(str,'.',str(end),'.value','Boundaries','inclusive'); 
     end
